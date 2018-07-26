@@ -1,0 +1,15 @@
+package forge.sbcrudrestful;
+
+import org.springframework.security.web.authentication.www.BasicAuthenticationEntryPoint;
+import org.springframework.stereotype.Component;
+
+@Component
+public class AuthenticationEntryPoint extends BasicAuthenticationEntryPoint {
+
+	@Override
+    public void afterPropertiesSet() throws Exception {
+        setRealmName("DeveloperStack");
+        super.afterPropertiesSet();
+    }
+
+}

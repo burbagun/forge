@@ -1,0 +1,11 @@
+package org.o7planning.sbcrudrestful.repository;
+  
+import java.util.List;
+
+import org.springframework.data.repository.CrudRepository;
+
+import gunther.sbcrudrestful.entity.Employee;
+
+	public interface EmployeeRepository extends CrudRepository<Employee, Long> {
+  
+	}

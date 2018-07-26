@@ -1,0 +1,5 @@
+package forge.sbcrudrestful;
+
+public class AuthenticationEntryPoint {
+
+}

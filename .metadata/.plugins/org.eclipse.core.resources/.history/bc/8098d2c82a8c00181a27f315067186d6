@@ -1,0 +1,46 @@
+spring.datasource.driver-class-name: com.mysql.jdbc.Driver
+spring.datasource.url: jdbc:mysql://localhost:3306/employee
+spring.datasource.username: employee
+spring.datasource.password: employee
+spring.jpa.hibernate.ddl-auto=create-drop
+
+
+
+# MONGODB (MongoProperties)
+#spring.data.mongodb.authentication-database= # Authentication database name.
+#spring.data.mongodb.database= # Database name.
+#spring.data.mongodb.field-naming-strategy= # Fully qualified name of the FieldNamingStrategy to use.
+#spring.data.mongodb.grid-fs-database= # GridFS database name.
+#spring.data.mongodb.host= # Mongo server host. Cannot be set with URI.
+#spring.data.mongodb.password= # Login password of the mongo server. Cannot be set with URI.
+#spring.data.mongodb.port= # Mongo server port. Cannot be set with URI.
+#spring.data.mongodb.repositories.type=auto # Type of Mongo repositories to enable.
+#spring.data.mongodb.uri=mongodb://localhost/test # Mongo database URI. Cannot be set with host, port and credentials.
+#spring.data.mongodb.username= # Login user of the mongo server. Cannot be set with URI.
+
+# CASSANDRA (CassandraProperties)
+#spring.data.cassandra.cluster-name= # Name of the Cassandra cluster.
+#spring.data.cassandra.compression=none # Compression supported by the Cassandra binary protocol.
+#spring.data.cassandra.connect-timeout= # Socket option: connection time out.
+#spring.data.cassandra.consistency-level= # Queries consistency level.
+#spring.data.cassandra.contact-points=localhost # Cluster node addresses.
+#spring.data.cassandra.fetch-size= # Queries default fetch size.
+#spring.data.cassandra.keyspace-name= # Keyspace name to use.
+#spring.data.cassandra.load-balancing-policy= # Class name of the load balancing policy.
+#spring.data.cassandra.port= # Port of the Cassandra server.
+#spring.data.cassandra.password= # Login password of the server.
+#spring.data.cassandra.pool.heartbeat-interval=30s # Heartbeat interval after which a message is sent on an idle connection to make sure it's still alive. If a duration suffix is not specified, seconds will be used.
+#spring.data.cassandra.pool.idle-timeout=120s # Idle timeout before an idle connection is removed. If a duration suffix is not specified, seconds will be used.
+#spring.data.cassandra.pool.max-queue-size=256 # Maximum number of requests that get queued if no connection is available.
+#spring.data.cassandra.pool.pool-timeout=5000ms # Pool timeout when trying to acquire a connection from a host's pool.
+#spring.data.cassandra.read-timeout= # Socket option: read time out.
+#spring.data.cassandra.reconnection-policy= # Reconnection policy class.
+#spring.data.cassandra.repositories.type=auto # Type of Cassandra repositories to enable.
+#spring.data.cassandra.retry-policy= # Class name of the retry policy.
+#spring.data.cassandra.serial-consistency-level= # Queries serial consistency level.
+#spring.data.cassandra.schema-action=none # Schema action to take at startup.
+#spring.data.cassandra.ssl=false # Enable SSL support.
+#spring.data.cassandra.username= # Login user of the server.
+
+# DATA LDAP
+#spring.data.ldap.repositories.enabled=true # Whether to enable LDAP repositories.
